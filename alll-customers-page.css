@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body, html{
+	overflow-x: hidden;
+}
+
+header{
+	width: 100vw;
+	height: 100vh;
+	background-image: url('img/customers.jpg');	
+	background-position: inherit;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+table {
+	width: 100%;
+	background-color: rgba(172, 137, 137, 0.3);
+	border-spacing: 0;
+	border-collapse: separate;
+	border-radius: 10px;
+	border: 1px solid black;
+  }
+  
+  th, td {
+	padding: 8px;
+	text-align: left;
+	text-align: center;
+  }
+  
+  tr:hover {background: rgb(243, 225, 27);}
+
+.button{
+	display: block;
+    background: #000000;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.button:hover{
+	border-color: #000000;
+	background: #f7f7f7;
+	color: #000000;
+}
+
+a:link,:visited,:hover,:active{
+	text-decoration: none;
+}
+
+
+#color{
+	background-color:whitesmoke;
+}
+
+.row{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	justify-content: center;	
+}
+.table-responsive{
+	margin-bottom: 100px;
+	align-items: center;
+}
+.col-sm-8{
+	margin-top:100px;
+}
+
+
+table {
+	width: 100%;
+  }
+  th,
+  td {
+	padding: 8px 16px;
+  }
+
+  .table-responsive {
+	overflow-y: auto; /* make the table scrollable if height is more than 200 px  */
+	height: 500px; /* gives an initial height of 200px to the table */
+  }
+  .table-responsive thead th {
+	position: sticky; /* make the table heads sticky */
+	background: #a39b9b;
+  }
